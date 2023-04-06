@@ -1,0 +1,27 @@
+div.min-w{background-color: blueviolet;
+width: 80%;
+height: 200px;
+min-width: 300px;
+border-bottom-right-radius: 10pt;}
+div.max-w{background-color: rgb(189, 129, 189);
+width: 60%;
+height: 200px;
+min-width: 200px;
+border-top-left-radius: 10px;}
+body{margin: 0px;
+padding: 0px;}
+div.min-h{background-color: rgb(72, 144, 153);
+width: 80%;
+height: 70%;
+min-height: 20px;
+border-top-right-radius: 20px;}
+div.max-h{background-color: rgb(117, 216, 161);
+width: 50%;
+height: 20%;
+min-width: 10px;
+border-bottom-left-radius: 20pt;}
+div.overflow{
+background-color:rgb(207, 34, 86);
+width: 30%;
+height: 10%;
+overflow: scroll;}
