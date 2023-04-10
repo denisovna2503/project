@@ -1,0 +1,16 @@
+.elem{color: greenyellow;
+text-transform: uppercase;}
+.elem:only-child{font-weight: bold;}
+.block{display: inline-block;
+width: 21%;
+height: 150px;
+line-height: 170%;
+font-size: 2rem;
+font-weight: bold;
+text-align: center;
+margin: 2%;
+border: 2px solid;}
+.block:first-of-type{background-color: greenyellow;}
+.block:nth-of-type(2){background-color: rgb(39, 63, 128);}
+.block:nth-of-type(3){background-color: rgb(147, 72, 182);}
+.block:last-of-type{background-color: rgb(189, 64, 95);}
