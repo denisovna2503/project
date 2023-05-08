@@ -1,0 +1,7 @@
+div{background: #0d233d;;}
+    .flex{color: cornsilk;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;}
+    .item-2{position: relative;
+    right: 380px;}
