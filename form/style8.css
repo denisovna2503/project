@@ -11,7 +11,8 @@ form{width: 300px;
     input{font: 1em sans-serif;
     width: 150px;
  box-sizing: border-box;
- border: 1px solid #777;}
+ border: 1px solid #777;
+outline: none;}
  input:focus{border-color: rgb(25, 11, 100);}
  input[type="checkbox"],
  input[type="radio"]{width: auto;}
