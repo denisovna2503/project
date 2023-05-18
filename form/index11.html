@@ -7,6 +7,10 @@
     <title>Сайт</title>
     <link rel="stylesheet" href="Css/menu.css">
     <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/common.css">
+    <link rel="stylesheet" href="CSS/portfolio.css">
+    <link rel="stylesheet" href="CSS/testmonials.css">
+    <link rel="stylesheet" href="CSS/contacts.css">
 </head>
 <body>
     <div class="main-nav">
@@ -28,5 +32,142 @@
         <h1>Interier Design Studio</h1>
         <h2>We create things you like</h2>
     </header>
+    <section id="about">
+        <div class="container">
+            <h2 class="heading">About Us</h2>
+            <p>Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit.
+            Qui recusandae eligendi modi commodi
+            tempore? Ratione?</p>
+            <div class="row">
+                <div class="column-2">
+                    <h3>Our Process</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Libero numquam eius ut
+                    laboriosam nam?</p>
+                    <h3>Our Features</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Libero numquam eius ut
+                    laboriosam nam?</p>
+                    <h3>Our Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Libero numquam eius ut
+                    laboriosam nam?</p>
+                </div>
+                <div class="column-2">
+                    <img src="https://source.unsplash.com/MUZFKa_mttU/600x500" class="img-fluid img-border" alt="About us">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="heading">Our Works</h2>
+            <div class="row">
+                <div class="portfolio-item column-3" data-descr="Kitchen design">
+                    <a target="_blank" href="https://source.unsplash.com/4a-xheeuZA0/800x800">
+                    <img src="https://source.unsplash.com/4a-xheeuZA0/500x500" class="img-fluid" alt="Kichen design"></a>
+                </div>
+                <div class="portfolio-item column-3" data-descr="Terrace design">
+                    <a target="_blank" href="https://source.unsplash.com/00fCk2lZn1c/700x900">
+                    <img src="https://source.unsplash.com/00fCk2lZn1c/500x500" class="img-fluid" alt="Terrace design"></a>
+                </div>
+                <div class="portfolio-item column-3" data-descr="Wooden house design">
+                    <a target="_blank" href="https://source.unsplash.com/7MAaRjiGH7I/800x800">
+                    <img src="https://source.unsplash.com/7MAaRjiGH7I/500x500" class="img-fluid" alt="Wooden house design"></a>
+                </div>
+                <div class="portfolio-item column-3" data-descr="White home design">
+                    <a target="_blank" href="https://source.unsplash.com/X5BWooeO4Cw/700x800">
+                    <img src="https://source.unsplash.com/X5BWooeO4Cw/500x500" class="img-fluid" alt="White home design"></a>
+                </div>
+                <div class="portfolio-item column-3" data-descr="Cafe design">
+                    <a target="_blank" href="https://source.unsplash.com/AYdJM-HiSUM/1000x700">
+                    <img src="https://source.unsplash.com/AYdJM-HiSUM/500x500" class="img-fluid" alt="Cafe design"></a>
+                </div>
+                <div class="portfolio-item column-3" data-descr="Bedroom design">
+                    <a target="_blank" href="https://source.unsplash.com/WzmzPT_sRzw/800x800">
+                    <img src="https://source.unsplash.com/WzmzPT_sRzw/500x500" class="img-fluid" alt="Bedroom design"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <div class="container">
+            <h2 class="heading">Testimonials</h2>
+            <div class="row">
+                <div class="column-2 mb">
+                    <div class="testimonial">
+                        <img src="https://source.unsplash.com/EGVccebWodM/150x150" alt="Author 1" class="testimonial-author img-border">
+                        <div class="testimonial-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Blanditiis asperiores inventore optio 
+                            expedita recusandae. Earum odit voluptatem 
+                            debitis omnis ut, veniam consectetur aliquam?
+                            Quibusdam tenetur quas provident eveniet tempora
+                            hic.</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur
+                            adipisicing elit. Vel, necessitatibus.</p>
+                            <footer>Sara Lookdail, writer</footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-2 mb">
+                    <div class="testimonial">
+                    <img src="https://source.unsplash.com/iFgRcqHznqg/150x150" alt="Author 2" class="testimonial-author img-border">
+                    <div class="testimonial-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Blanditiis asperiores inventore optio 
+                            expedita recusandae. Earum odit voluptatem 
+                            debitis omnis ut, veniam consectetur aliquam?
+                            Quibusdam tenetur quas provident eveniet tempora
+                            hic.</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur
+                            adipisicing elit. Vel, necessitatibus.</p>
+                        <footer>Max Tibodt, GEO of Royal Group</footer>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacts">
+        <div class="container">
+            <h2 class="heading">Contact Us</h2>
+            <form name="contactForm">
+                <div class="row">
+                    <div class="column-2">
+                        <p>
+                            <label for="username">Name</label>
+                            <input type="text" id="username" name="username">
+                        </p>
+                        <p>
+                            <label for="useremail">Email</label>
+                            <input type="email" id="useremail" name="useremail">
+                        </p>
+                        <p>
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject">
+                        </p>
+                    </div>
+                    <div class="column-2">
+                        <p>
+                            <label for="usermessage">Message</label>
+                            <textarea id="usermessage" name="usermessage"></textarea>
+                        </p>
+                        <p>
+                            <input class="btn" type="submit" value="Submit">
+                        </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <div class="row justify-content-between">
+            </div>
+            <p></p>
+        </div>
+    </footer>
 </body>
 </html>
