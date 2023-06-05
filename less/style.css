@@ -1,0 +1,24 @@
+/*переменная для фонового цвета блока*/
+/*переменная для цвета текста блока*/
+div {
+  background-color: #aa5a5a;
+  color: #eee;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.border {
+  border: 5px dotted #eee;
+}
+#center {
+  padding: 10px;
+}
+/*переменная-путь*/
+.image {
+  background: url("image/111.jpg");
+  border: 5px dotted #eee;
+  background-size: cover;
+  background-position: right;
+}
