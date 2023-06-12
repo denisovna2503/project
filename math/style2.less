@@ -1,0 +1,13 @@
+/*зададим цвет, используя функцию color*/
+@colBg:color("pink");
+@colFg:color("purple");
+/*зададим значение внутреннего отступа, используя функцию convert, которая преобразует миллиметры в пункты*/
+@padd:convert(5mm,pt);
+/*зададим значение внешнего отступа, используя функцию unit, которая задает значению единицы измерения*/
+@marg:unit(5,vw);
+div{
+background-color: @colBg;
+color: @colFg;
+padding: @padd;
+margin: @marg;
+}
