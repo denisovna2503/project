@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       // ||(или);
+        /*let ageUser=18;
+        let countMsgs=800;
+        if((ageUser>=21)||(countMsgs>500)){
+            alert('Вам разрешено прикреплять файлы к сообщению');
+        } else{
+            alert('Вам запрещено прикреплять файлы к сообщению');
+        }*/
+
+        let ageUser=18;
+        let countMsgs=600;
+        if((ageUser>=21)&&(countMsgs>500)){
+            alert('Вам разрешено прикреплять файлы к сообщению');
+        } else{
+            alert('Вам запрещено прикреплять файлы к сообщению');
+        }
+
+        let value=true;
+        console.log(typeof value); //boolean
+        value=String(value); //теперь value это строка "true"
+        console.log(typeof value); //string
+
+        let str="123";
+        console.log(typeof str); //string
+        let num=Number(str); //становится числом 123
+        console.log(typeof num); //number
+        console.log(typeof("6"/"2"));
+
+        let a=2+2;
+        switch(a){
+            case 3:console.log('Маловато');
+            break;
+            case 4:console.log('В точку');
+            break;
+            case 5:console.log('Перебор');
+            break;
+            default:alert("Нет таких значений!");
+        }
+
+        let arg=prompt("Введите число?");
+        switch(arg) {
+            case '0':
+                case '1':alert('Один или ноль');
+                break;
+                case '2':alert('Два');
+                break;
+                case 3:alert('Никогда не выполнится!');
+                break;
+                default:alert('Неизвестное значение');
+        }
+
+        let number=+prompt("Введите число между 0 и 3?");
+        switch(number) {
+            case 0:
+                case 0:alert('ноль');
+                break;
+                case 1:alert('один');
+                break;
+                case 2:
+                case 3:alert('вы ввели число 2, а может 3');
+                break;
+                default:alert('Неизвестное значение');
+        }
+    </script>
+</body>
+</html>
